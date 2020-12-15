@@ -120,7 +120,8 @@
                                 </div>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24"
                                      fill="none" stroke="currentColor"
-                                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="dr-btn-icon">
+                                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                     class="dr-btn-icon">
                                     <polyline points="15 18 9 12 15 6"></polyline>
                                 </svg>
                             </button>
@@ -296,10 +297,327 @@
     </div>
 </header>
 
+<!-- slide show section -->
 <div id="slide-show-container" class="flex-flow">
     <img src="images/medical_specialties/slide-show.png">
 </div>
 
+<!-- list of specialties that has left part and right part -->
+<div id="main-content" class="flex-flow">
 
+    <!-- slide bar section that is left part of main content -->
+    <div id="slide-bar-div">
+        <div id="slide-bar-top" class="flex-flow">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" fill="none"
+                 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                 class="ml-3 text-slate feather feather-align-right" data-v-513b5ba4="">
+                <line x1="21" y1="10" x2="7" y2="10" data-v-513b5ba4=""></line>
+                <line x1="21" y1="6" x2="3" y2="6" data-v-513b5ba4=""></line>
+                <line x1="21" y1="14" x2="3" y2="14" data-v-513b5ba4=""></line>
+                <line x1="21" y1="18" x2="7" y2="18" data-v-513b5ba4=""></line>
+            </svg>
+            <h3>همه تخصص ها</h3>
+            <span class="gray-color">(به ترتیب حروف الفبا)</span>
+        </div>
+        <div id="specialties-search">
+            <form>
+                <button type="submit">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 24 24" fill="none"
+                         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                         class="text-water-blue flip-horizontal dr-search__icon feather feather-search"
+                         data-v-ab4dbc62="">
+                        <circle cx="11" cy="11" r="8" data-v-ab4dbc62=""></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65" data-v-ab4dbc62=""></line>
+                    </svg>
+                </button>
+                <input type="text" placeholder="تخصص مورد نظر خود را جستجو کنید...">
+            </form>
+            <ul>
+                <li>
+                    <div class="specialties-search-items"><span>ا</span></div>
+                    <div class="specialties-search-items"><a>ارتوپدی</a></div>
+                    <div class="specialties-search-items"><a>ارتوپدی کودکان</a></div>
+                    <div class="specialties-search-items"><a>ارتوز و پروتز(ارتوپدی فنی)</a></div>
+                    <div class="specialties-search-items"><a>استروتاکسی و فانکشنال مغز و اعصاب</a></div>
+                    <div class="specialties-search-items"><a>آسم آلرژی و ایمونولوژی</a></div>
+                    <div class="specialties-search-items"><a>اکوکاردیوگرافی</a></div>
+                    <div class="specialties-search-items"><a>اندرولوژی و لاپاراسکوپی</a></div>
+                    <div class="specialties-search-items"><a>اندویورولوژی و لاپاراسکوپی</a></div>
+                </li>
+                <li>
+                    <div class="specialties-search-items"><span>ب</span></div>
+                    <div class="specialties-search-items"><a>بالون آنژیوپلاستی</a></div>
+                    <div class="specialties-search-items"><a>بالون آنژیوپلاستی و والوپلاستی</a></div>
+                    <div class="specialties-search-items"><a>بیماری های عفونی و تب دار</a></div>
+                    <div class="specialties-search-items"><a>بیماریهای پوست و مو</a></div>
+                    <div class="specialties-search-items"><a>بیماریهای ریه</a></div>
+                    <div class="specialties-search-items"><a>بیماریهای عفونی کودکان</a></div>
+                    <div class="specialties-search-items"><a>بیماریهای قلب و عروق</a></div>
+                    <div class="specialties-search-items"><a>بیهوشی</a></div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- list of specialties card section that is right part of main content -->
+    <div id="specialties-list">
+        <!-- card 1 -->
+        <div class="specialties-cards">
+            <a>
+                <div class="specialties-cards-top">
+                    <img src="images/medical_specialties/specialists_cards/card1/کبد_گوارش.svg">
+                    <h3>گوارش و کبد</h3>
+                </div>
+                <p>متخصص گوارش، کبد و آندوسکوپی پزشکی که بر سلامت گوارش تمرکز دارد و در زمینه تشخیص، ارزیابی و درمان
+                    اختلالا ...</p>
+                <div class="specialties-cards-bottom">
+                    <div>
+                        <img src="images/medical_specialties/specialists_cards/card1/1.jpg">
+                        <img src="images/medical_specialties/specialists_cards/card1/2.jpg">
+                        <img src="images/medical_specialties/specialists_cards/card1/3.jpg">
+                        <p>+ 109 پزشک</p>
+                    </div>
+                    <button>مشاهده
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 24 24"
+                             fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                             stroke-linejoin="round" class="mr-2 mr-md-0 feather feather-arrow-left" data-v-35f6788e="">
+                            <line x1="19" y1="12" x2="5" y2="12" data-v-35f6788e=""></line>
+                            <polyline points="12 19 5 12 12 5" data-v-35f6788e=""></polyline>
+                        </svg>
+                    </button>
+                </div>
+            </a>
+        </div>
+
+        <!-- card 2 -->
+        <div class="specialties-cards">
+            <a>
+                <div class="specialties-cards-top">
+                    <img src="images/medical_specialties/specialists_cards/card2/غدد_متابولیسم.svg">
+                    <h3>غدد و متابولیسم</h3>
+                </div>
+                <p>متخصص غدد و متابولیسم پزشکی است که بیماری‌های هورمونی را به طور کامل مطالعه کرده و بهترین درمان‌های
+                    ممکن ...</p>
+                <div class="specialties-cards-bottom">
+                    <div>
+                        <img src="images/medical_specialties/specialists_cards/card2/1.jpg">
+                        <img src="images/medical_specialties/specialists_cards/card2/2.jpg">
+                        <img src="images/medical_specialties/specialists_cards/card2/3.jpg">
+                        <p>+ 78 پزشک</p>
+                    </div>
+                    <button>مشاهده
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 24 24"
+                             fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                             stroke-linejoin="round" class="mr-2 mr-md-0 feather feather-arrow-left" data-v-35f6788e="">
+                            <line x1="19" y1="12" x2="5" y2="12" data-v-35f6788e=""></line>
+                            <polyline points="12 19 5 12 12 5" data-v-35f6788e=""></polyline>
+                        </svg>
+                    </button>
+                </div>
+            </a>
+        </div>
+
+        <!-- card 3 -->
+        <div class="specialties-cards">
+            <a>
+                <div class="specialties-cards-top">
+                    <img src="images/medical_specialties/specialists_cards/card3/بینی.svg">
+                    <h3>گوش، حلق و بینی</h3>
+                </div>
+                <p>پزشکی که در زمینه تشخیص، مراقبت‌های پزشکی، جراحی و درمان بیمارانی که دچار اختلالات گوش، بینی، دهان،
+                    گلو، ...</p>
+                <div class="specialties-cards-bottom">
+                    <div>
+                        <img src="images/medical_specialties/specialists_cards/card3/1.jpg">
+                        <img src="images/medical_specialties/specialists_cards/card3/2.jpeg">
+                        <img src="images/medical_specialties/specialists_cards/card3/3.png">
+                        <p>+ 204 پزشک</p>
+                    </div>
+                    <button>مشاهده
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 24 24"
+                             fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                             stroke-linejoin="round" class="mr-2 mr-md-0 feather feather-arrow-left" data-v-35f6788e="">
+                            <line x1="19" y1="12" x2="5" y2="12" data-v-35f6788e=""></line>
+                            <polyline points="12 19 5 12 12 5" data-v-35f6788e=""></polyline>
+                        </svg>
+                    </button>
+                </div>
+            </a>
+        </div>
+
+        <!-- card 4 -->
+        <div class="specialties-cards">
+            <a>
+                <div class="specialties-cards-top">
+                    <img src="images/medical_specialties/specialists_cards/card4/مغز.svg">
+                    <h3>مغز و اعصاب</h3>
+                </div>
+                <p>سیستم عصبی انسان به دو دسته‌ی کلی اعصاب مرکزی (مغز و نخاع) و اعصاب محیطی (اعصاب و نورون‌های عضلات)
+                    تقسیم ...</p>
+                <div class="specialties-cards-bottom">
+                    <div>
+                        <img src="images/medical_specialties/specialists_cards/card4/1.jpg">
+                        <img src="images/medical_specialties/specialists_cards/card4/2.jpg">
+                        <img src="images/medical_specialties/specialists_cards/card4/3.jpg">
+                        <p>+ 131 پزشک</p>
+                    </div>
+                    <button>مشاهده
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 24 24"
+                             fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                             stroke-linejoin="round" class="mr-2 mr-md-0 feather feather-arrow-left" data-v-35f6788e="">
+                            <line x1="19" y1="12" x2="5" y2="12" data-v-35f6788e=""></line>
+                            <polyline points="12 19 5 12 12 5" data-v-35f6788e=""></polyline>
+                        </svg>
+                    </button>
+                </div>
+            </a>
+        </div>
+
+        <!-- card 5 -->
+        <div class="specialties-cards">
+            <a>
+                <div class="specialties-cards-top">
+                    <img src="images/medical_specialties/specialists_cards/card5/خون.svg">
+                    <h3>خون و آنکلوژی</h3>
+                </div>
+                <p>پزشکی که به پیشگیری، تشخیص، درمان و مطالعه بیماری های مربوط به خون و بافت های سازنده خون که شامل
+                    اختلالات ...</p>
+                <div class="specialties-cards-bottom">
+                    <div>
+                        <img src="images/medical_specialties/specialists_cards/card5/1.jpg">
+                        <img src="images/medical_specialties/specialists_cards/card5/2.jpg">
+                        <img src="images/medical_specialties/specialists_cards/card5/3.jpg">
+                        <p>+ 14 پزشک</p>
+                    </div>
+                    <button>مشاهده
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 24 24"
+                             fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                             stroke-linejoin="round" class="mr-2 mr-md-0 feather feather-arrow-left" data-v-35f6788e="">
+                            <line x1="19" y1="12" x2="5" y2="12" data-v-35f6788e=""></line>
+                            <polyline points="12 19 5 12 12 5" data-v-35f6788e=""></polyline>
+                        </svg>
+                    </button>
+                </div>
+            </a>
+        </div>
+
+        <!-- card 6 -->
+        <div class="specialties-cards">
+            <a>
+                <div class="specialties-cards-top">
+                    <img src="images/medical_specialties/specialists_cards/card6/زنان.svg">
+                    <h3>زنان و زایمان</h3>
+                </div>
+                <p>متخصص زنان و زایمان یا دکتر زنان (obstetrician)، پزشکی است که در تشخیص و درمان بیماری‌های مربوط به
+                    دستگاه ...</p>
+                <div class="specialties-cards-bottom">
+                    <div>
+                        <img src="images/medical_specialties/specialists_cards/card6/1.jpg">
+                        <img src="images/medical_specialties/specialists_cards/card6/2.jpg">
+                        <img src="images/medical_specialties/specialists_cards/card6/3.jpg">
+                        <p>+ 14 پزشک</p>
+                    </div>
+                    <button>مشاهده
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 24 24"
+                             fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                             stroke-linejoin="round" class="mr-2 mr-md-0 feather feather-arrow-left" data-v-35f6788e="">
+                            <line x1="19" y1="12" x2="5" y2="12" data-v-35f6788e=""></line>
+                            <polyline points="12 19 5 12 12 5" data-v-35f6788e=""></polyline>
+                        </svg>
+                    </button>
+                </div>
+            </a>
+        </div>
+
+        <!-- card 7 -->
+        <div class="specialties-cards">
+            <a>
+                <div class="specialties-cards-top">
+                    <img src="images/medical_specialties/specialists_cards/card7/مو.svg">
+                    <h3>پوست و مو</h3>
+                </div>
+                <p>پزشکی که به تشخیص، درمان و جلوگیری از بیماری‌های پوست، مو، ناخن، نواحی مایع مخاطی در بدن (داخل دهان،
+                    بینی ...</p>
+                <div class="specialties-cards-bottom">
+                    <div>
+                        <img src="images/medical_specialties/specialists_cards/card7/1.jpg">
+                        <img src="images/medical_specialties/specialists_cards/card7/2.jpg">
+                        <img src="images/medical_specialties/specialists_cards/card7/3.jpg">
+                        <p>+ 178 پزشک</p>
+                    </div>
+                    <button>مشاهده
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 24 24"
+                             fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                             stroke-linejoin="round" class="mr-2 mr-md-0 feather feather-arrow-left" data-v-35f6788e="">
+                            <line x1="19" y1="12" x2="5" y2="12" data-v-35f6788e=""></line>
+                            <polyline points="12 19 5 12 12 5" data-v-35f6788e=""></polyline>
+                        </svg>
+                    </button>
+                </div>
+            </a>
+        </div>
+
+        <!-- card 8 -->
+        <div class="specialties-cards">
+            <a>
+                <div class="specialties-cards-top">
+                    <img src="images/medical_specialties/specialists_cards/card8/روماتولوژی.svg">
+                    <h3>روماتولوژی</h3>
+                </div>
+                <p>روماتولوژیست یا متخصص روماتیسم متخصص داخلی و یا یک متخصص اطفال است که برای تشخیص و درمان غیر جراحی
+                    بیماری ...
+                </p>
+                <div class="specialties-cards-bottom">
+                    <div>
+                        <img src="images/medical_specialties/specialists_cards/card8/1.jpg">
+                        <img src="images/medical_specialties/specialists_cards/card8/2.jpg">
+                        <img src="images/medical_specialties/specialists_cards/card8/3.jpg">
+                        <p>+ 71 پزشک</p>
+                    </div>
+                    <button>مشاهده
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 24 24"
+                             fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                             stroke-linejoin="round" class="mr-2 mr-md-0 feather feather-arrow-left" data-v-35f6788e="">
+                            <line x1="19" y1="12" x2="5" y2="12" data-v-35f6788e=""></line>
+                            <polyline points="12 19 5 12 12 5" data-v-35f6788e=""></polyline>
+                        </svg>
+                    </button>
+                </div>
+            </a>
+        </div>
+
+        <!-- card 9 -->
+        <div class="specialties-cards">
+            <a>
+                <div class="specialties-cards-top">
+                    <img src="images/medical_specialties/specialists_cards/card9/جراحی_مغز.svg">
+                    <h3>جراحی مغز و اعصاب</h3>
+                </div>
+                <p>پزشکی که در زمینه پیشگیری، تشخیص، جراحی‌ مغز و توانبخشی اختلالاتی که بر هر بخش از دستگاه عصبی شامل
+                    اعصاب ...</p>
+                <div class="specialties-cards-bottom">
+                    <div>
+                        <img src="images/medical_specialties/specialists_cards/card9/1.jpg">
+                        <img src="images/medical_specialties/specialists_cards/card9/2.jpg">
+                        <img src="images/medical_specialties/specialists_cards/card9/3.jpg">
+                        <p>+ 54 پزشک</p>
+                    </div>
+                    <button>مشاهده
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 24 24"
+                             fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                             stroke-linejoin="round" class="mr-2 mr-md-0 feather feather-arrow-left" data-v-35f6788e="">
+                            <line x1="19" y1="12" x2="5" y2="12" data-v-35f6788e=""></line>
+                            <polyline points="12 19 5 12 12 5" data-v-35f6788e=""></polyline>
+                        </svg>
+                    </button>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div id="footer-container">
+    <div id=""></div>
+</div>
 </body>
 </html>

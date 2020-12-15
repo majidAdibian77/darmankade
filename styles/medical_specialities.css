@@ -1,0 +1,107 @@
+/* slide show styles */
+#slide-show-container {
+    border-radius: 10px;
+    width: 80%;
+    margin: 1rem auto;
+}
+
+.gray-color {
+    color: #6e7794;
+}
+
+#slide-show-container > img {
+    width: 100%;
+}
+
+/* style of main content that has tow part "slide bar" and "list of specialists" */
+#main-content {
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+    width: 80%;
+    margin: auto;
+}
+
+/* styles of slide bar */
+#slide-bar-div {
+    width: 25%;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, .125);
+}
+
+#slide-bar-top {
+    padding: 1rem;
+    border-bottom: 1px solid #dee2e6;
+    align-items: center;
+    justify-content: center;
+}
+
+#slide-bar-top > h3 {
+    margin: auto;
+}
+
+/* styles of search of specialties in slide bar */
+#specialties-search {
+    overflow-y: auto;
+    height: 80vh;
+    width: 95%;
+    margin-bottom: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-top: 1rem;
+}
+
+/* styles of form to search specialties */
+#specialties-search > form {
+    background-color: #fafafa;
+    /*padding-right: 2.25rem;*/
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: 5px;
+    width: 93%;
+}
+
+#specialties-search > form > input {
+    width: 80%;
+    height: 50px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+}
+
+#specialties-search > form > button {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    transform: scaleX(-1);
+}
+
+#specialties-search > form > button > svg {
+    margin-bottom: -5px;
+    cursor: pointer;
+    color: #1780df;
+}
+
+
+#specialties-search > ul{
+    list-style: none;
+    padding-right: 0;
+}
+
+.specialties-search-items {
+    margin-top: 1rem;
+    color: #6e7794;
+}
+
+.specialties-search-items > span {
+    background-color: #e5f2fe;
+    color: #3b4157;
+    border-radius: 5px;
+    text-align: center;
+    padding: .25rem 1rem;
+}
+
+.specialties-search-items > a {
+    padding-bottom: .5rem;
+    text-decoration: none;
+    color: #6e7794;
+    cursor: pointer;
+}

@@ -1,3 +1,7 @@
+<!-- TODO: search bar magnifier disappear on click -->
+<!-- TODO: collapsable buttons change arrow on click -->
+<!-- TODO: checkbox action -->
+
 <html>
 
     <head>
@@ -301,7 +305,7 @@
         </header>
 
         <!-- panel for the main content section-->
-        <div class="w-80 h-100 mx-auto">
+        <div class="w-80 mx-auto mb-5">
             
             <!-- navbar text -->
             <div class="container p-4">
@@ -320,6 +324,342 @@
             <div class="bg-primary rounded-10px ms-4 me-4 text-white">
                 <h2 class="p-3">لیست بهترین متخصص مغز و اعصاب (نورولوژی) برای مشاوره آنلاین و حضوری</h2>
                 <p class="ps-3 pe-3 pb-3">ویزیت حضوری و مشاوره آنلاین (تصویری، صوتی و متنی) با بهترین پزشکان متخصص مغز و اعصاب (نورولوژی) در تهران</p>
+            </div>
+
+            <!-- sidebar -->
+            <div class="w-25 m-4">
+                <!-- top image in sidebar-->
+                <div class="mb-3">
+                    <img src="./images/neurologist/0996fbf.png" alt="" class="w-100 h-auto">
+                </div>
+                
+                <!-- search box -->
+                <div class="p-3 mb-3 border rounded-10px bg-white">
+                    <h5 class="pb-3 mb-3 border-bottom">جستجو در نتایج</h5>
+                    <div class="search-box position-relative">
+                        <input type="text" placeholder="نام یا نام خانوادگی پزشک را بنویسید."
+                            class="p-3 border-0 rounded-10px no-outline w-100 text-12 our-bg-gray"/>
+
+                        <svg data-v-027aed6c="" xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle data-v-027aed6c="" cx="11" cy="11" r="8"></circle>
+                            <line data-v-027aed6c="" x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                        </svg>
+                    </div>
+                </div>
+
+                <!-- first collapsable item -->
+                <div class="p-2 pe-3 border rounded-10px mb-3 bg-white">
+                    <!-- title -->
+                    <div class="cur-pointer flex-flow font-120" data-bs-toggle="collapse" href="#c-1">
+                        <div class="w-80 ms-5">تخصص ها</div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-expanded="false"
+                            aria-controls="collapse-4" data-v-90eca2a0="" class="">
+                            <polyline points="6 9 12 15 18 9" data-v-90eca2a0=""></polyline>
+                        </svg>
+                    </div>
+                    <!-- this section is hidden and will be shown on click -->
+                    <div id="c-1" class="pt-3 border-top mt-2 collapse">
+                        <div class="container">
+                            <div class="row mb-1">
+                                <div class="col-2">
+                                    <svg height="20" width="20">
+                                        <circle cx="10" cy="10" r="8" stroke="orange" stroke-width="2" fill="white" />
+                                    </svg>
+                                </div>
+                                <div class="col font-110">
+                                    متخصص روانپزشک (اعصاب و روان)
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-2">
+                                    <svg height="20" width="20">
+                                        <circle cx="10" cy="10" r="8" stroke="orange" stroke-width="2" fill="white" />
+                                    </svg>
+                                </div>
+                                <div class="col font-110">
+                                    متخصص مغز و اعصاب (نورولوژی)
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- second collapsable item -->
+                <div class="p-2 pe-3 border rounded-10px mb-3 bg-white">
+                    <!-- title -->
+                    <div class="cur-pointer flex-flow font-120" data-bs-toggle="collapse" href="#c-2">
+                        <div class="w-80 ms-5">زمان نوبت</div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-expanded="false"
+                            aria-controls="collapse-4" data-v-90eca2a0="" class="">
+                            <polyline points="6 9 12 15 18 9" data-v-90eca2a0=""></polyline>
+                        </svg>
+                    </div>
+                    <!-- this section is hidden and will be shown on click -->
+                    <div id="c-2" class="pt-3 border-top mt-2 collapse">
+                        <div class="container">
+                            <div class="row mb-1">
+                                <div class="col-2">
+                                    <svg height="20" width="20">
+                                        <circle cx="10" cy="10" r="8" stroke="orange" stroke-width="2" fill="white" />
+                                    </svg>
+                                </div>
+                                <div class="col font-110">
+                                    امروز
+                                </div>
+                            </div>
+                            <div class="row mb-1">
+                                <div class="col-2">
+                                    <svg height="20" width="20">
+                                        <circle cx="10" cy="10" r="8" stroke="orange" stroke-width="2" fill="white" />
+                                    </svg>
+                                </div>
+                                <div class="col font-110">
+                                    فردا
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-2">
+                                    <svg height="20" width="20">
+                                        <circle cx="10" cy="10" r="8" stroke="orange" stroke-width="2" fill="white" />
+                                    </svg>
+                                </div>
+                                <div class="col font-110">
+                                    سریعترین زمان
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 3rd collapsable item-->
+                <div class="p-2 pe-3 border rounded-10px mb-3 bg-white">
+                    <!-- title -->
+                    <div class="cur-pointer flex-flow font-120" data-bs-toggle="collapse" href="#c-3">
+                        <div class="w-80 ms-5">بیمارستان ها</div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-expanded="false"
+                            aria-controls="collapse-4" data-v-90eca2a0="" class="">
+                            <polyline points="6 9 12 15 18 9" data-v-90eca2a0=""></polyline>
+                        </svg>
+                    </div>
+                    <!-- this section is hidden and will be shown on click -->
+                    <div id="c-3" class="pt-3 border-top mt-2 collapse overflow-auto h-25">
+                        <div class="container">
+                            <div class="row mb-1">
+                                <div class="col-2">
+                                    <svg height="20" width="20">
+                                        <circle cx="10" cy="10" r="8" stroke="orange" stroke-width="2" fill="white" />
+                                    </svg>
+                                </div>
+                                <div class="col font-110">
+                                    بانک ملی
+                                </div>
+                            </div>
+                            <div class="row mb-1">
+                                <div class="col-2">
+                                    <svg height="20" width="20">
+                                        <circle cx="10" cy="10" r="8" stroke="orange" stroke-width="2" fill="white" />
+                                    </svg>
+                                </div>
+                                <div class="col font-110">
+                                    سینا
+                                </div>
+                            </div>
+                            <div class="row mb-1">
+                                <div class="col-2">
+                                    <svg height="20" width="20">
+                                        <circle cx="10" cy="10" r="8" stroke="orange" stroke-width="2" fill="white" />
+                                    </svg>
+                                </div>
+                                <div class="col font-110">
+                                    آزادی
+                                </div>
+                            </div>
+                            <div class="row mb-1">
+                                <div class="col-2">
+                                    <svg height="20" width="20">
+                                        <circle cx="10" cy="10" r="8" stroke="orange" stroke-width="2" fill="white" />
+                                    </svg>
+                                </div>
+                                <div class="col font-110">
+                                    ساسان
+                                </div>
+                            </div>
+                            <div class="row mb-1">
+                                <div class="col-2">
+                                    <svg height="20" width="20">
+                                        <circle cx="10" cy="10" r="8" stroke="orange" stroke-width="2" fill="white" />
+                                    </svg>
+                                </div>
+                                <div class="col font-110">
+                                    بقیه الله
+                                </div>
+                            </div>
+                            <div class="row mb-1">
+                                <div class="col-2">
+                                    <svg height="20" width="20">
+                                        <circle cx="10" cy="10" r="8" stroke="orange" stroke-width="2" fill="white" />
+                                    </svg>
+                                </div>
+                                <div class="col font-110">
+                                    حضرت رسول (ص)
+                                </div>
+                            </div>
+                            <div class="row mb-1">
+                                <div class="col-2">
+                                    <svg height="20" width="20">
+                                        <circle cx="10" cy="10" r="8" stroke="orange" stroke-width="2" fill="white" />
+                                    </svg>
+                                </div>
+                                <div class="col font-110">
+                                    میلاد
+                                </div>
+                            </div>
+                            <div class="row mb-1">
+                                <div class="col-2">
+                                    <svg height="20" width="20">
+                                        <circle cx="10" cy="10" r="8" stroke="orange" stroke-width="2" fill="white" />
+                                    </svg>
+                                </div>
+                                <div class="col font-110">
+                                    امام سجاد (ع)
+                                </div>
+                            </div>
+                            <div class="row mb-1">
+                                <div class="col-2">
+                                    <svg height="20" width="20">
+                                        <circle cx="10" cy="10" r="8" stroke="orange" stroke-width="2" fill="white" />
+                                    </svg>
+                                </div>
+                                <div class="col font-110">
+                                    504 ارتش
+                                </div>
+                            </div>
+                            <div class="row mb-1">
+                                <div class="col-2">
+                                    <svg height="20" width="20">
+                                        <circle cx="10" cy="10" r="8" stroke="orange" stroke-width="2" fill="white" />
+                                    </svg>
+                                </div>
+                                <div class="col font-110">
+                                    تهران پارس
+                                </div>
+                            </div>
+                            <div class="row mb-1">
+                                <div class="col-2">
+                                    <svg height="20" width="20">
+                                        <circle cx="10" cy="10" r="8" stroke="orange" stroke-width="2" fill="white" />
+                                    </svg>
+                                </div>
+                                <div class="col font-110">
+                                    گلستان
+                                </div>
+                            </div>
+                            <div class="row mb-1">
+                                <div class="col-2">
+                                    <svg height="20" width="20">
+                                        <circle cx="10" cy="10" r="8" stroke="orange" stroke-width="2" fill="white" />
+                                    </svg>
+                                </div>
+                                <div class="col font-110">
+                                    چمران
+                                </div>
+                            </div>
+                            <div class="row mb-1">
+                                <div class="col-2">
+                                    <svg height="20" width="20">
+                                        <circle cx="10" cy="10" r="8" stroke="orange" stroke-width="2" fill="white" />
+                                    </svg>
+                                </div>
+                                <div class="col font-110">
+                                    فیروز آبادی
+                                </div>
+                            </div>
+                            <div class="row mb-1">
+                                <div class="col-2">
+                                    <svg height="20" width="20">
+                                        <circle cx="10" cy="10" r="8" stroke="orange" stroke-width="2" fill="white" />
+                                    </svg>
+                                </div>
+                                <div class="col font-110">
+                                    خاتم الانبیا
+                                </div>
+                            </div>
+                            <div class="row mb-1">
+                                <div class="col-2">
+                                    <svg height="20" width="20">
+                                        <circle cx="10" cy="10" r="8" stroke="orange" stroke-width="2" fill="white" />
+                                    </svg>
+                                </div>
+                                <div class="col font-110">
+                                    نور افشار
+                                </div>
+                            </div>
+                            <div class="row mb-1">
+                                <div class="col-2">
+                                    <svg height="20" width="20">
+                                        <circle cx="10" cy="10" r="8" stroke="orange" stroke-width="2" fill="white" />
+                                    </svg>
+                                </div>
+                                <div class="col font-110">
+                                    شرکت نفت
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 4th collapsable item-->
+                <div class="p-2 pe-3 border rounded-10px mb-3 bg-white">
+                    <!-- title -->
+                    <div class="cur-pointer flex-flow font-120" data-bs-toggle="collapse" href="#c-4">
+                        <div class="w-80 ms-5">تخصص ها</div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-expanded="false"
+                            aria-controls="collapse-4" data-v-90eca2a0="" class="">
+                            <polyline points="6 9 12 15 18 9" data-v-90eca2a0=""></polyline>
+                        </svg>
+                    </div>
+                    <!-- this section is hidden and will be shown on click -->
+                    <div id="c-4" class="pt-3 border-top mt-2 collapse">
+                        <div class="container">
+                            <div class="row mb-1">
+                                <div class="col-2">
+                                    <svg height="20" width="20">
+                                        <circle cx="10" cy="10" r="8" stroke="orange" stroke-width="2" fill="white" />
+                                    </svg>
+                                </div>
+                                <div class="col font-110">
+                                    مرد
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-2">
+                                    <svg height="20" width="20">
+                                        <circle cx="10" cy="10" r="8" stroke="orange" stroke-width="2" fill="white" />
+                                    </svg>
+                                </div>
+                                <div class="col font-110">
+                                    زن
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- checkbox -->
+                <div class="p-2 pe-3 border rounded-10px mb-3 bg-white">
+                    <div class="cur-pointer flex-flow font-120">
+                        <div class="w-80 ms-5">نمایش پزشکان دارای مشاوره آنلاین</div>
+                        <div class="rounded-25px our-bg-dark position-relative our-checkbox">
+                            <div class="rounded-circle bg-light"></div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
 
         </div>

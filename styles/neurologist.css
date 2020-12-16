@@ -12,3 +12,66 @@
 {
     border-radius: 10px;
 }
+.rounded-25px /* round the corners by 25px */
+{
+    border-radius: 25px;
+}
+
+.text-12 /* set font size to 12px */
+{
+    font-size: 12px;
+}
+
+.font-120 /* set font size to 120% */
+{
+    font-size: 120%;
+}
+.font-110 /* set font size to 110% */
+{
+    font-size: 110%;
+}
+
+.our-bg-gray /* gray color for background */
+{
+    background-color: #fafafa;
+}
+.our-bg-dark /* dark color for background */
+{
+    background-color: #ccc;
+}
+
+.no-outline /* remove outline from elements */
+{
+    outline: none;
+}
+
+/* ----------------------------------------------------------------------- */
+
+.search-box > input /* input box for search bar in sidebar */
+{
+    padding-right: 50px !important;
+}
+
+.search-box > svg /* magnifier image inside search bar */
+{
+    position: absolute;
+    top: 15px;
+    right: 10px;
+}
+
+/* ----------------------------------------------------------------------- */
+
+.our-checkbox
+{
+    width: 60px;
+    height: 30px;
+}
+
+.our-checkbox > div
+{
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    right: 20px;
+    top: 2px;
+}

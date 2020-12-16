@@ -1,0 +1,9 @@
+.w-80 /* sets the width of a block element to 80% */
+{
+    width: 80%;
+}
+
+.cur-pointer /* set cursor shape to pointer */
+{
+    cursor: pointer;
+}

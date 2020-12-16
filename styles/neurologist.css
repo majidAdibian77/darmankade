@@ -2,6 +2,14 @@
 {
     width: 80%;
 }
+.w-90 /* sets the width of a block element to 90% */
+{
+    width: 90%;
+}
+.w-95 /* sets the width of a block element to 95% */
+{
+    width: 95%;
+}
 
 .cur-pointer /* set cursor shape to pointer */
 {
@@ -30,6 +38,10 @@
 {
     font-size: 110%;
 }
+.font-140
+{
+    font-size: 140%;
+}
 
 .our-bg-gray /* gray color for background */
 {
@@ -38,6 +50,19 @@
 .our-bg-dark /* dark color for background */
 {
     background-color: #ccc;
+}
+.our-bg-green /* dark green for background */
+{
+    background-color: #e5f2fe;
+}
+.our-bg-btn
+{
+    background-color: rgb(251, 129, 94);
+}
+
+.our-text-lightgreen /* light color for text color */
+{
+    color: rgb(77, 204, 107);
 }
 
 .no-outline /* remove outline from elements */
@@ -61,13 +86,13 @@
 
 /* ----------------------------------------------------------------------- */
 
-.our-checkbox
+.our-checkbox /* special checkbox like a slider */
 {
     width: 60px;
     height: 30px;
 }
 
-.our-checkbox > div
+.our-checkbox > div /* circle inside checkbox */
 {
     position: absolute;
     width: 26px;
@@ -75,3 +100,35 @@
     right: 20px;
     top: 2px;
 }
+
+/* ----------------------------------------------------------------------- */
+
+.doctor-box:hover /* doctor box has orange border when hovering */
+{
+    border: 1px orange solid !important;
+}
+
+@keyframes book-btn-anim /* booking button animation */
+{
+    0%   {width: 50px; border-radius: 20px 10px 10px 20px;}
+    100% {width: 238px; border-radius: 10px;}
+}
+.book-btn-effect /* booking button effect */
+{
+    position: absolute;
+    background-color: white;
+    top: 0px;
+    opacity: 0.3;
+    width: 50px;
+    height: 50px;
+    border-radius: 20px 10px 10px 20px;
+}
+.book-btn:hover > .book-btn-effect /* booking button hover */
+{
+    animation-name: book-btn-anim;
+    animation-duration: 0.5s;
+    width: 238px;
+    border-radius: 10px;
+}
+
+/* ----------------------------------------------------------------------- */

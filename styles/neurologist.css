@@ -132,3 +132,11 @@
 }
 
 /* ----------------------------------------------------------------------- */
+
+.custom-class /* plus sign with blue background and rounded corners */
+{
+    background: #1780df;
+    padding: 3px;
+    color: #fff;
+    border-radius: 25% 0 25% 25%;
+}

@@ -7,3 +7,8 @@
 {
     cursor: pointer;
 }
+
+.rounded-10px /* round the corners by 10px */
+{
+    border-radius: 10px;
+}

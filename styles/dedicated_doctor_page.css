@@ -34,5 +34,20 @@
 /*  style of doctor information in first section of page */
 #doctor-information-container {
     width: 80%;
+    display: flex;
+    color: #6e7794;
     margin: 1rem auto;
+}
+
+/*  style of doctor information card that is right part of this section */
+#doctor-information-card {
+    padding-left: 1.5rem;
+    width: 33.33%;
+}
+
+/*  style of online appointments for doctor of this page that is left part of this section */
+#online-appointments {
+    margin-bottom: 1.5rem;
+    width: 66.66%;
+
 }

@@ -117,7 +117,7 @@
     width: 33.33%;
     text-align: center;
     display: flex;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -129,7 +129,7 @@
 #doctor-information-card-bottom > div > span:last-child {
     font-size: 0.8rem;
     margin-top: 0.45rem;
-        color: rgb(59, 65, 87);
+    color: rgb(59, 65, 87);
 
 }
 

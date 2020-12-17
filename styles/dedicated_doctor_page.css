@@ -41,7 +41,6 @@
 
 /*  style of doctor information card that is right part of this section */
 #doctor-information-card {
-    /*padding-left: 1.5rem;*/
     width: 33.33%;
     border: 1px solid rgba(0, 0, 0, 0.125);
     background-color: rgb(23, 128, 223);
@@ -52,12 +51,14 @@
     margin-bottom: 15px;
 }
 
+/*  style of top part of doctor information card */
 #doctor-information-card-top {
     margin: .5rem 1.5rem;
     justify-content: space-between;
     display: flex;
 }
 
+/* style of image in top part of card */
 #doctor-information-card-top img {
     width: 105px;
     height: 105px;
@@ -78,6 +79,7 @@
     color: rgb(251, 129, 94);
 }
 
+/* style of middle part of doctor information card */
 #doctor-information-card-middle {
     margin-bottom: 1.5rem;
     color: #ffffff;
@@ -101,6 +103,7 @@
 
 }
 
+/* style of bottom part of doctor information card */
 #doctor-information-card-bottom {
     border-radius: 10px;
     font-size: 0.7rem;
@@ -119,15 +122,12 @@
 }
 
 #doctor-information-card-bottom div span {
-    /*margin: auto;*/
-    /*position: relative;*/
     width: 100%;
     margin-top: 0.20rem;
 }
 
 #doctor-information-card-bottom > div > span:last-child {
     font-size: 0.8rem;
-    /*color: rgb(110, 119, 148);*/
     margin-top: 0.45rem;
         color: rgb(59, 65, 87);
 

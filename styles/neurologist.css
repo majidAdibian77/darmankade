@@ -133,6 +133,14 @@
 
 /* ----------------------------------------------------------------------- */
 
+.like-btn:hover /* like button for each doctor */
+{
+    fill: orange;
+    stroke: orange;
+}
+
+/* ----------------------------------------------------------------------- */
+
 .custom-class /* plus sign with blue background and rounded corners */
 {
     background: #1780df;
@@ -140,3 +148,11 @@
     color: #fff;
     border-radius: 25% 0 25% 25%;
 }
+
+/* ----------------------------------------------------------------------- */
+
+header a /* text color of links in header drop down must be black */
+{
+    color: black;
+}
+

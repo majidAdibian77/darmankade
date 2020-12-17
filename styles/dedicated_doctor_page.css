@@ -1,0 +1,38 @@
+/* address of this page on top of page */
+#page-address {
+    width: 80%;
+    margin: auto;
+}
+
+/* style of list of links to this page */
+#page-address > ol {
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+    padding-right: 0;
+    color: #1780df;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    font-size: 14px;
+    position: relative;
+}
+
+#page-address li {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#page-address li:last-child {
+    color: #6e7794;
+}
+
+#page-address svg {
+    width: 20px;
+    vertical-align: middle;
+}
+
+/*  style of doctor information in first section of page */
+#doctor-information-container {
+    width: 80%;
+    margin: 1rem auto;
+}

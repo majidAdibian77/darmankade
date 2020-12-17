@@ -41,8 +41,96 @@
 
 /*  style of doctor information card that is right part of this section */
 #doctor-information-card {
-    padding-left: 1.5rem;
+    /*padding-left: 1.5rem;*/
     width: 33.33%;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    background-color: rgb(23, 128, 223);
+    border-radius: 10px;
+    padding-top: 1rem;
+    text-align: center;
+    padding-bottom: 0.2rem;
+    margin-bottom: 15px;
+}
+
+#doctor-information-card-top {
+    margin: .5rem 1.5rem;
+    justify-content: space-between;
+    display: flex;
+}
+
+#doctor-information-card-top img {
+    width: 105px;
+    height: 105px;
+    border-radius: 50%;
+
+}
+
+#doctor-information-card-top svg {
+    cursor: pointer;
+    color: #fff;
+}
+
+#doctor-information-card-top svg:hover {
+    fill: rgb(251, 129, 94);
+}
+
+#doctor-information-card-top svg:last-child:hover {
+    color: rgb(251, 129, 94);
+}
+
+#doctor-information-card-middle {
+    margin-bottom: 1.5rem;
+    color: #ffffff;
+}
+
+#doctor-information-card-middle h1 {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+
+}
+
+#doctor-information-card-middle h2 {
+    font-size: 0.8rem;
+    margin-top: 1rem;
+}
+
+#doctor-information-card-middle h3 {
+    font-size: 0.7rem;
+    margin-top: 1rem;
+
+}
+
+#doctor-information-card-bottom {
+    border-radius: 10px;
+    font-size: 0.7rem;
+    margin: 0.5rem;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+}
+
+#doctor-information-card-bottom div {
+    padding: .5rem;
+    width: 33.33%;
+    text-align: center;
+    display: flex;
+        flex-wrap: wrap;
+    justify-content: center;
+}
+
+#doctor-information-card-bottom div span {
+    /*margin: auto;*/
+    /*position: relative;*/
+    width: 100%;
+    margin-top: 0.20rem;
+}
+
+#doctor-information-card-bottom > div > span:last-child {
+    font-size: 0.8rem;
+    /*color: rgb(110, 119, 148);*/
+    margin-top: 0.45rem;
+        color: rgb(59, 65, 87);
+
 }
 
 /*  style of online appointments for doctor of this page that is left part of this section */

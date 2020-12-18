@@ -146,6 +146,7 @@
     border: 1px solid rgba(0, 0, 0, .125);
 }
 
+/* style of location of doctor's office that is first part of online appointments section */
 #doctor-office-location {
     padding: 1rem 1.5rem;
     background-color: transparent;
@@ -163,17 +164,10 @@
     font-weight: bold;
     font-size: 1rem;
     display: flex;
-    /*justify-content: space-between;*/
 }
 
-#doctor-office-location > button>span {
-    /*position: absolute;*/
-    /*left: 3%;*/
-    /*top: 40%;*/
-    /*display: inline-block;*/
-    /*margin-left: .255em;*/
-    /*vertical-align: .255em;*/
-    /*content: "";*/
+/* style of dropdown icon */
+#doctor-office-location > button > span {
     margin: auto auto auto 10px;
     float: left;
     border-top: .3em solid;
@@ -181,3 +175,76 @@
     border-bottom: 0;
     border-left: .3em solid transparent;
 }
+
+/* style of calendar and free time box */
+#calendar-div {
+    color: #6e7794;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 1.5rem;
+}
+
+#calendar-row {
+    height: 100%;
+    padding: .5rem 0 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#calendar-row > ul {
+    display: flex;
+    width: 83%;
+    justify-content: space-between;
+    padding-right: 0;
+    height: 100%;
+    list-style: none;
+    color: #1780df
+}
+
+#calendar-row > ul li {
+    width: 12%;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    border: 2px solid rgba(0, 0, 0, .125);
+}
+
+#calendar-row > ul li p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+#calendar-row > ul li p:last-child {
+    font-size: 10px;
+}
+
+#calendar-row > ul li:first-child {
+    background-color: #ededed;
+    color: #acadaf;
+}
+
+#calendar-row > ul li:nth-child(2) {
+    background-color: #1780df;
+    color: #fff;
+}
+
+
+#calendar-row button {
+    padding: 5px;
+    outline: none;
+    border: 1px solid #fb815e;
+    border-radius: 50%;
+    background: transparent;
+    cursor: pointer;
+    color: #fb815e;
+    display: flex;
+    align-items: center;
+     fill: #fb815e;
+    margin: auto 0;
+}
+
+
+

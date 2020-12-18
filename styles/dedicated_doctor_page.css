@@ -50,6 +50,9 @@
     padding-bottom: 0.2rem;
     margin-left: 1.5rem;
     margin-bottom: 15px;
+    height: 100%;
+    position: sticky;
+    top: 0;
 }
 
 /*  style of top part of doctor information card */
@@ -185,6 +188,7 @@
     margin-top: 1.5rem;
 }
 
+/* style of calendar section */
 #calendar-row {
     height: 100%;
     padding: .5rem 0 1.5rem;
@@ -202,6 +206,7 @@
     color: #1780df
 }
 
+/* style of days in calendar */
 #calendar-row > ul li {
     width: 12%;
     cursor: pointer;
@@ -232,7 +237,7 @@
     color: #fff;
 }
 
-
+/* style of button in calendar to go to another days */
 #calendar-row button {
     padding: 5px;
     outline: none;
@@ -247,6 +252,7 @@
     margin: auto 0;
 }
 
+/* style of showing free times to reserve */
 #free-times-div {
     border-radius: 10px;
     color: #6e7794;
@@ -289,7 +295,7 @@
     background-color: #fa5a2c;
 }
 
-
+/* style of showing examples of comments */
 #user-comments-examples {
     border-radius: 10px;
     border: 1px solid #ededed;
@@ -299,6 +305,7 @@
     display: flex;
 }
 
+/* style of doctor score box */
 #doctor-score-div {
     margin-left: 1.5rem;
     margin-right: 1.5rem;
@@ -309,13 +316,14 @@
     border-radius: 5px;
     color: #1780df;
     flex-wrap: wrap;
+    margin-bottom: 20px;
 }
 
+/* top part of doctor in score card contain image of doctor*/
 #doctor-score-top-div {
     color: #1780df;
     font-weight: 700;
     font-size: 38px;
-    /*width: 100%;*/
     -webkit-box-flex: 0;
     flex: 0 0 100%;
     max-width: 100%;
@@ -323,6 +331,7 @@
     width: 100%;
 }
 
+/* name of doctor in score card */
 #doctor-score-middle-div {
     width: 100%;
     display: flex;
@@ -336,11 +345,11 @@
 }
 
 #doctor-score-div > p {
-    /*align-items: center;*/
     margin: 10px auto auto;
     color: #6e7794;
 }
 
+/* style of example of comment text */
 #user-comment-example {
     width: 83.33%;
     padding-right: 15px;
@@ -351,21 +360,18 @@
     list-style: none;
 }
 
-/*#user-comment-example li {*/
-/*    !*display: flex;*!*/
-/*}*/
-
+/* style of name of comment writer  */
 #username-comment-example {
     margin-bottom: 1rem;
     display: flex;
     align-items: center;
-    /*margin: auto;*/
 }
 
 #username-comment-example svg {
     margin-left: 10px;
 }
 
+/* style of four cycle in bottom of comment to go to other comments */
 #user-comment-example ol {
     bottom: -1rem;
     display: flex;
@@ -379,6 +385,7 @@
     background-color: #ededed;
     border-radius: 50%;
     margin: 4px;
+    cursor: pointer;
 }
 
 #user-comment-example > ol > li:first-child {
@@ -397,4 +404,36 @@
     vertical-align: middle;
     cursor: pointer;
     color: #1780df;
+}
+
+/* style of information about location section */
+#location-information-box {
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, .125);
+    margin-bottom: 1rem;
+}
+
+#location-information-box > ul {
+    border: 0;
+    border-radius: 10px 10px 0 0;
+    background: #ededed;
+    height: 53px;
+    color: #6e7794;
+    display: flex;
+    list-style: none;
+    padding-right: 0;
+    margin-top: 0;
+}
+
+#location-information-box > ul > li {
+    padding: .5rem 1rem;
+    display: flex;
+    align-items: center;
+    border-radius: 0 10px 0 0;
+}
+#location-information-box > ul > li:first-child{
+    background-color: #fff;
+}
+#location-information-box>ul>li>svg{
+    margin-left: 10px;
 }

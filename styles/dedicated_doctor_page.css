@@ -441,12 +441,12 @@
     padding: .5rem 1rem;
     display: flex;
     align-items: center;
-    border-radius: 0 10px 0 0;
     cursor: pointer;
 }
 
 #location-information-box > ul > li:first-child {
-    background-color: #fff;
+    background-color: #ffffff;
+    border-radius: 0 10px 0 0;
 }
 
 #location-information-box > ul > li > svg {
@@ -502,7 +502,7 @@
 
 #free-days-week {
     padding: 10px;
-    /*display: flex;*/
+    display: none;
 }
 
 #free-days-week > h4 {
@@ -522,17 +522,21 @@
 #week-days div {
     font-size: 14px;
     text-align: center;
-    padding: 1rem 15px;
+    padding: 1rem 5px;
     margin-bottom: 1rem;
-    background-color: #fafafa;
-    width: 11%;
+    width: 11.5%;
 }
 
-#week-days div > span {
-    margin: auto;
-    padding-bottom: 1.5rem;
-    color: #6e7794;
+#week-days div:nth-child(odd) {
+    background-color: #fafafa;
 }
-#week-days div > svg{
-    position: relative;
+
+.not-selected-day-svg {
+    color: #fb815e;
+    display: none;
+}
+
+.selected-day-svg {
+    color: #4dcc6b;
+    display: none;
 }

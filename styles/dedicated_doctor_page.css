@@ -343,7 +343,7 @@
 
 #doctor-score-middle-div svg {
     fill: #1780df;
-        width: 0.8em;
+    width: 0.8em;
     height: 0.8em;
 }
 
@@ -354,7 +354,7 @@
 
 /* style of example of comment text */
 #user-comment-example {
-    width:90%;
+    width: 90%;
     padding-right: 15px;
     padding-left: 15px;
     height: 130px;
@@ -374,7 +374,8 @@
 #username-comment-example svg {
     margin-left: 10px;
 }
-#user-comment-example>ul>li>p{
+
+#user-comment-example > ul > li > p {
     color: #3b4157;
 }
 
@@ -497,4 +498,41 @@
 #location-explanation-div span {
     color: #3b4157;
     font-size: small;
+}
+
+#free-days-week {
+    padding: 10px;
+    /*display: flex;*/
+}
+
+#free-days-week > h4 {
+    font-size: 16px;
+    color: #3b4157;
+    padding: .5rem 1rem;
+    margin-bottom: .5rem;
+}
+
+#week-days {
+    display: flex;
+    padding: .5rem 1rem;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#week-days div {
+    font-size: 14px;
+    text-align: center;
+    padding: 1rem 15px;
+    margin-bottom: 1rem;
+    background-color: #fafafa;
+    width: 11%;
+}
+
+#week-days div > span {
+    margin: auto;
+    padding-bottom: 1.5rem;
+    color: #6e7794;
+}
+#week-days div > svg{
+    position: relative;
 }

@@ -69,5 +69,27 @@ function getDoctorInfos(id) {
     })
 }
 
+function change_weekday_officeinfo(witch_tab) {
+    // This function is called when user click on "اطلاعات مطب" or "روزهای هفته" in doctor page
+    // so background of tabs must be change to show selected tab
+    // and the related section must be visible and another one must be hidden
+
+    tab_elements = document.getElementById('location-information-box').getElementsByTagName('li')
+    office_info_tab = tab_elements[0]
+    week_days_tab = tab_elements[1]
+    office_info = document.getElementById('location-content-div')
+    week_days = document.getElementById('free-days-week')
+    if (witch_tab === 'office_info') {
+        office_info_tab.style.backgroundColor = '#ffffff'  // Change background of selected tab
+        week_days_tab.style.backgroundColor = '#ededed'  // Change background of not selected tab
+        office_info.style.display = 'flex'  // show related section
+        week_days.style.display = 'none'  // hide not related sectio
+    } else {
+        office_info_tab.style.backgroundColor = '#ededed'  // Change background of not selected tab
+        week_days_tab.style.backgroundColor = '#ffffff'  // Change background of selected tab
+        office_info.style.display = 'none'  // hide not related sectio
+        week_days.style.display = 'block'  // show related section
+    }
+}
 
 getDoctorInfos(1)

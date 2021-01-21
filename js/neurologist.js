@@ -1,11 +1,8 @@
-var xhttp = new XMLHttpRequest();
-xhttp.onreadystatechange = function() {
-if (this.readyState == 4 && this.status == 200) {
-    doctors = JSON.parse(this.response)
+function fill_doc_list(doctors)
+{
     doc_box = document.getElementById('doc-box')
     container = document.getElementById('doctors-api-container')
     container.innerHTML = ''
-
     for (let index = 0; index < doctors.length; index++) {
         const doc = doctors[index];
         new_box = doc_box.cloneNode(true)
@@ -32,7 +29,16 @@ if (this.readyState == 4 && this.status == 200) {
         container.appendChild(new_box)
     }
 }
+
+var xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+        doctors = JSON.parse(this.response)
+        console.log(doctors)
+        fill_doc_list(doctors)
+    }
 };
+
 xhttp.open("GET", "https://intense-ravine-40625.herokuapp.com/doctors", true);
 xhttp.send();
 

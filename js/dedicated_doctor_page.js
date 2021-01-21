@@ -92,4 +92,6 @@ function change_weekday_officeinfo(witch_tab) {
     }
 }
 
-getDoctorInfos(1)
+const urlParams = new URLSearchParams(window.location.search);
+const myParam = urlParams.get('id');
+getDoctorInfos(myParam)

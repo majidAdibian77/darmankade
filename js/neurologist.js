@@ -7,6 +7,10 @@ function fill_doc_list(doctors)
         const doc = doctors[index];
         new_box = doc_box.cloneNode(true)
         new_box.style.display = 'block'
+        new_box.id = 'doc-box-'+doc['id']
+        new_box.onclick = () => {
+            window.location = './dedicated_doctor_page.html?id=' + doc['id']
+        }
         
         new_box.children[0].children[0].children[0].src = doc['avatar']
         
@@ -39,9 +43,9 @@ xhttp.onreadystatechange = function() {
         doctors_sorted = JSON.parse(JSON.stringify(doctors))
         doctors_sorted.sort((d1, d2) => {
             if (d1['user_percent'] < d2['user_percent'])
-                return -1
-            else if (d1['user_percent'] > d2['user_percent'])
                 return 1
+            else if (d1['user_percent'] > d2['user_percent'])
+                return -1
             return 0
         })
         fill_doc_list(doctors)
@@ -57,11 +61,9 @@ sort_default.onclick = () => {
     fill_doc_list(doctors)
 
     sort_user_percent.classList.remove('rounded-25px')
-    // sort_user_percent.classList.remove('ms-5')
     sort_user_percent.classList.remove('text-white')
     sort_user_percent.classList.remove('bg-primary')
     sort_default.classList.add('rounded-25px')
-    // sort_default.classList.add('ms-5')
     sort_default.classList.add('text-white')
     sort_default.classList.add('bg-primary')
 }
@@ -69,11 +71,9 @@ sort_user_percent.onclick = () => {
     fill_doc_list(doctors_sorted)
 
     sort_default.classList.remove('rounded-25px')
-    // sort_default.classList.remove('ms-5')
     sort_default.classList.remove('text-white')
     sort_default.classList.remove('bg-primary')
     sort_user_percent.classList.add('rounded-25px')
-    // sort_user_percent.classList.add('ms-5')
     sort_user_percent.classList.add('text-white')
     sort_user_percent.classList.add('bg-primary')
 }

@@ -94,4 +94,9 @@ function change_weekday_officeinfo(witch_tab) {
 
 const urlParams = new URLSearchParams(window.location.search);
 const myParam = urlParams.get('id');
-getDoctorInfos(myParam)
+alert(myParam)
+if (myParam == null) {
+    getDoctorInfos(1)
+} else {
+    getDoctorInfos(myParam)
+}
